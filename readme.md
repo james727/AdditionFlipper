@@ -1,7 +1,7 @@
 # AdditionFlipper
 This is a small proof of concept I created while playing around with the AST module. It's a decorator that replaces all instances of `+` with `-` in a function, and vice versa. For example, the following function:
 
-"""
+"""python
 @flipaddition
 def addtester( x ):
     for i in range( 10 ):
@@ -11,7 +11,7 @@ def addtester( x ):
 
 Becomes:
 
-"""
+"""python
 def addtester( x ):
     for i in range( 10 ):
         print x - i, x + i
