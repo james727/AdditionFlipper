@@ -1,4 +1,4 @@
-import inspect, ast, dis
+import inspect, ast
 
 class AdditionFlipper( ast.NodeTransformer ):
     # Flip addition to subtraction, and vice versa
