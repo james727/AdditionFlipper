@@ -22,12 +22,3 @@ def flipaddition( f ):
 
     f.__code__ = myScope[ f.__name__ ].__code__
     return f
-
-@flipaddition
-def addtester( x ):
-    for i in range( 10 ):
-        print x + i, x - i
-    return x + 1
-
-if __name__ == "__main__":
-    print addtester( 2 )
