@@ -29,4 +29,5 @@ def addtester( x ):
         print x + i, x - i
     return x + 1
 
-print addtester( 2 )
+if __name__ == "__main__":
+    print addtester( 2 )

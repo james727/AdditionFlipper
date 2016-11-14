@@ -18,4 +18,4 @@ def addtester( x ):
     return x - 1
 ```
 
-Usage is simple, not that anyone would ever want to use this: just `from addflipper import flippadition` and decorate whatever function you'd like with `@flipaddition`. 
+Usage is simple, not that anyone would ever want to use this: just `from addflipper import flipadition` and decorate whatever function you'd like with `@flipaddition`. 
